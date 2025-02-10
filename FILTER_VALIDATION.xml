@@ -4,6 +4,7 @@ $!-#
 {{@// /*Multi line commit mention*/
 {
 if(POSTED)request:
+echo {
     php version 4.0:
     <script>
     {{
@@ -20,9 +21,12 @@ if(POSTED)request:
 
     });,
 }}
+</style>
+}else echo {
 <style>
 el if___answer___'container'____from___'CONTAINERLIST': == Return: True::
     {{"elif___answer___'container'___from___'containerlist': == return: True* {call(): ;elsewise::*thenafter;"}}
+}
 }
 }}
 <span class="list">
