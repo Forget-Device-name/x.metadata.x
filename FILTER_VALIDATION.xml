@@ -22,7 +22,7 @@ if(POSTED)request:
 }}
 <style>
 el if___answer___'container'____from___'CONTAINERLIST': == Return: True::
-    {{"elif___answer___'container'___from___'containerlist': ⁶== return: True* {call(): ;elsewise::*thenafter;"}}
+    {{"elif___answer___'container'___from___'containerlist': == return: True* {call(): ;elsewise::*thenafter;"}}
 }
 }}
 <span class="list">
