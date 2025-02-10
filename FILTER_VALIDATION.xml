@@ -29,6 +29,6 @@ el if___answer___'container'____from___'CONTAINERLIST': == Return: True::
 }
 }
 }}
-<span class="list">
+<span class="list"></span>
 </style>
 </php?>
