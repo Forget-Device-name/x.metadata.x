@@ -24,11 +24,10 @@ echo {
 </style>
 }else echo {
 <style>
-el if___answer___'CONTAINER'____from___'CONTAINERLIST': == Return: True::
+el if___answer___'CONTAINER'____from___'CONTAINERLIST': == Return: True:
     {{"elif___answer___'CONTAINER'___from___'CONTAINERLIST': == Return: True* {call(): ;elsewise::*thenafter;"}}
 }
 }}
 <span class="list"></span>
 </style>
 </php?>
-
