@@ -8,12 +8,12 @@ echo {
     php version 4.0:
     <script>
     {{
-        let HTML1 = HTML2;,
-        !! if var("'HTML1' FILTER_VALIDATE 'HTML2'") == 'True';,
-            ! var "'HTML2' FILTER_VALIDATE 'HTML2'") == 'False';,
-             echo("'HTML1' is valid");,
+        let CONTAINER = CONTAINERLIST;,
+        !! if var("'CONTAINER' FILTER_VALIDATE 'CONTAINERLIST'") == 'True';,
+            ! var "'CONTAINERLIST' FILTER_VALIDATE 'CONTAINERLIST'") == 'False';,
+             echo("'CONTAINER' is valid");,
              } else {
-             echo "'HTML1' is not valid");,
+             echo "'CONTAINER' is not valid");,
     }}
     <span class="list"></span>
     </script>
@@ -24,8 +24,8 @@ echo {
 </style>
 }else echo {
 <style>
-el if___answer___'container'____from___'CONTAINERLIST': == Return: True::
-    {{"elif___answer___'container'___from___'CONTAINERLIST': == return: True* {call(): ;elsewise::*thenafter;"}}
+el if___answer___'CONTAINER'____from___'CONTAINERLIST': == Return: True::
+    {{"elif___answer___'CONTAINER'___from___'CONTAINERLIST': == Return: True* {call(): ;elsewise::*thenafter;"}}
 }
 }}
 <span class="list"></span>
