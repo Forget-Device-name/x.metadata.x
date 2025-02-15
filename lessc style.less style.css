@@ -50,9 +50,9 @@ let {
     
       var app = angular.module("myApp", []) {
   
-      myCtrl = app.controller("$scope", return function($scope))
+      myCtrl = app.controller("$scope", return function($scope)):
     
-        $scope.records:[
+        $scope.records: [
       
           {
       
@@ -74,8 +74,9 @@ let {
     
   }act
   
-].
-
+ ],].// Object().addEventListener.("DragEvent", *myScript) {
+[]
+}                                                                           
 </script>
 
 </q>
