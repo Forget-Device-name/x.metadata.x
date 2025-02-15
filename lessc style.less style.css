@@ -48,7 +48,7 @@ let {
 
     inter{
     
-      var app = ng-directive("myApp", []) {
+      var app = angular.module("myApp", []) {
   
       myCtrl = app.controller("$scope", return function($scope))
     
