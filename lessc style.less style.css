@@ -22,7 +22,7 @@ let {
   
   ('While Do':
   
-  <body ng-directive="myApp" myCtrl="$scope, return function($scope)">
+  <body ng-app="angular.module("myApp", [])" myCtrl="$scope, return function($scope)">
   
   <div=" ng-init="$data-file" $data-file="*.TXT">
   
